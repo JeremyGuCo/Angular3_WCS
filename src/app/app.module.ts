@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MovieListComponent } from './movie-list/movie-list.component';
+import { HighlightDirective } from './movie-list/highlight.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MovieListComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
